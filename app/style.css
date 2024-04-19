@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.no-space {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header .title {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header .whatsapp i {
+    color: green;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team {
+    box-shadow: 1px 1px 8px gray;
+    margin: 25px 10px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.team .team-thumbnail {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team .team-thumbnail img {
+    width: 80%;
+}
+
+.team h4 {
+    font-size: 1.8em;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.team p {
+    color: grey;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.team a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.team .mancity {
+    background-color: #0c80c3;
+}
+
+.team .arsenal {
+    background-color: red;
+}
+
+.italics {
+    font-style: italic;
+}
+
+@media (max-width: 500px) {
+    main {
+        width: 100%;
+    }
+
+    .header .title {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .row {
+        display: block;
+    }
+}
